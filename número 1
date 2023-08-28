@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<math.h>
+main(){
+
+double numero, raiz, quadrado;
+
+printf("digite um numero inteiro");
+scanf("%lf", &numero);
+
+if(numero>=0){
+raiz = sqrt (numero);
+printf("a raiz quadrada do numero inserido e:%lf", raiz);
+}else(){
+quadrado = numero**2;
+printf("o quadrado do numero inserido e:%lf", quadrado);
+}
+
+}
