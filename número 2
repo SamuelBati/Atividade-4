@@ -1,0 +1,50 @@
+#include<stdio.h>
+main(){
+
+int A, B, C, D;
+
+printf("Digite o valor de A");
+scanf("%d", &A);
+
+printf("\ndigite o valor de B");
+scanf("%d", &B);
+
+printf("\ndigite o valor de C");
+scanf("%d", &C);
+
+printf("\ndigite, por fim, o valor de D");
+scanf("%d", &D);
+
+if(A>B && A>C && A>D){
+printf("\nO numero A e maior de todos");
+
+if(B<C && B<D){printf("\nO B e o menor de todos");}
+if(C<B && C<D){printf("\nO C e o menor de todos");}
+if(D<B && D<C){printf("\nD e o menor de todos");}
+}
+
+else if(B>A && B>C && B>D){
+printf("\nO numero B e maior de todos");
+
+if(A<C && A<D){printf("\nO A e o menor de todos");}
+if(C<A && C<D){printf("\nO C e o menor de todos");}
+if(D<A && D<C){printf("\nD e o menor de todos");}
+}
+
+else if(C>B && C>A && C>D){
+printf("\nO numero C e maior de todos");
+
+if(B<C && B<D){printf("\nO B e o menor de todos");}
+if(A<B && A<D){printf("\nO A e o menor de todos");}
+if(D<B && D<A){printf("\nD e o menor de todos");}
+}
+
+else if(D>B && D>C && D>A){
+printf("\nO numero D e maior de todos");
+
+if(B<C && B<A){printf("\nO B e o menor de todos");}
+if(C<B && C<A){printf("\nO C e o menor de todos");}
+if(A<B && A<C){printf("\nA e o menor de todos");}
+}
+
+}
