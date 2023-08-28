@@ -1,0 +1,24 @@
+#include<stdio.h>
+main(){
+
+doble numero;
+
+printf("Digite um numero por favor");
+scanf("%lf", &numero);
+
+if(numero = 5){
+printf("parabens, seu numero e igual a cinco");}
+
+else if(numero = 200){
+printf("parabens, seu numero e igual a duzentos");}
+
+else if(numero = 400){
+printf("parabens, seu numero e igual a quatrocentos");}
+
+else if(numero>500 && numero<1000){
+printf("parabens, seu numero esta em um intervalo entre o numero quinhentos e  o numero mil");}
+
+else(){
+printf("desculpe, mas o seu numero não se encontra entre nenhum dos parametros estabelecidos");}
+
+}
