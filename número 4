@@ -15,6 +15,9 @@ scanf("%d", &C);
 if(A>B && B>C){
 printf("A ordem correta do maior para o menor e: A, B, C");}
 
+else if(A>C && C>B){
+printf("A ordem correta do maior para o menor e: A, C, B");}
+
 else if(B>A && A>C){
 printf("A ordem correta do maior para o menor e: B, A, C");}
 
@@ -23,5 +26,8 @@ printf("A ordem correta do maior para o menor e: B, C, A");}
 
 else if(C>A && A>B){
 printf("A ordem correta do maior para o menor e: C, A, B");}
+
+else if(C>B && B>A){
+printf("A ordem correta do maior para o menor e: C, B, A");}
 
 }
