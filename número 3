@@ -13,21 +13,21 @@ printf("Digite o valor de C");
 scanf("%d", &C);
 
 if(A<B && B<C){
-printf("A ordem correta do menor para o maior e: A, B, C");}
+ printf("A ordem correta do menor para o maior e: A, B, C");}
 
 else if(A<C && C<B){
-printf("A ordem correta do menor para o maior e: A, C, B");}
+ printf("A ordem correta do menor para o maior e: A, C, B");}
 
 else if(B<A && A<C){
-printf("A ordem correta do menor para o maior e: B, A, C");}
+ printf("A ordem correta do menor para o maior e: B, A, C");}
 
 else if(B<C && C<A){
-printf("A ordem correta do menor para o maior e: B, C, A");}
+ printf("A ordem correta do menor para o maior e: B, C, A");}
 
 else if(C<A && A<B){
-printf("A ordem correta do menor para o maior e: C, A, B");}
+ printf("A ordem correta do menor para o maior e: C, A, B");}
 
 else if(C<B && B<A){
-printf("A ordem correta do menor para o maior e: C, B, A");}
+ printf("A ordem correta do menor para o maior e: C, B, A");}
 
 }
